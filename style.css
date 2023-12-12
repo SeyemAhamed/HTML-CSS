@@ -1,0 +1,664 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif; 
+}
+
+   /* Portfolio page */
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background:#eff4fd; 
+}
+
+
+.logo{
+    height: 85px;
+    width: 100px;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    transition-duration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: red;
+}.
+
+.detel{
+    margin: 8%;
+    margin-top: 15%;
+}
+
+.detel h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+    margin-top: 400px;
+    margin-left: 80px;
+}
+
+span{
+    color: orange;
+}
+
+.detel p{
+    margin-left: 80px;
+    color: #555;
+    line-height: 22px;
+}
+
+.detel a{
+    margin-left: 80px;
+    margin-top: 30px;
+    background-color: black;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0px;
+    right: 100px;
+}
+
+.images img{
+    height: 60%;
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    transform: translateX(-50%);
+    transform: bottom 1s,left 1s;
+}
+
+
+.boy{
+   margin-bottom: 200px;
+    width: 300px;
+   
+}
+
+.shape{
+    margin-bottom: 200px;
+    height: 50px;
+    
+}
+
+.images:hover .shape{
+    bottom: 40px;
+}
+
+.images:hover .boy{
+    left: 45%;
+}
+
+   /* About page */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans',sans-serif;
+    box-sizing: border-box;
+}
+
+
+.about{
+    width: 100%;
+    padding: 78px 0px;
+    background-color: #191919;
+}
+.about img{
+    height: auto;
+    width: 420px;
+}
+
+.about-text{
+    width: 550px;
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h1{
+    color: whitesmoke;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-text h5{
+    color: whitesmoke;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+
+}
+
+span{
+    color: red;
+}
+
+.about-text p{
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+button{
+    background-color: red;
+    color: whitesmoke;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transform: 4s;
+}
+
+button:hover{
+    background: transparent;
+    border: 2px solid red;
+    cursor: pointer;
+}
+
+   /* Service  page */
+
+
+
+   *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    overflow: hidden;
+}
+
+.service{
+   min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 8% ;
+    color: #fff;
+    background-color: black;
+    overflow: hidden;
+    z-index: 1;
+    position: relative;
+}
+
+.service .service1{
+   display: flex;
+   justify-content: space-between; 
+   margin: 4.8rem 0;
+}
+
+.service .service1 h1{
+    font-size: 3.7rem;
+    line-height: 3.7rem;
+    letter-spacing: 1px;
+    width: 40%;
+}
+
+.service .service1 p{
+    width: 40%;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+.cards .card{
+    height: 220px;
+    width: 420px;
+    border: 0.5px solid rgb(255,255, 255,0.5);
+    border-radius: 28px;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 8%;
+    position: relative;
+    z-index: 1;
+    background-color: transparent;
+    overflow: hidden;
+    transition: 6s;
+}
+
+.cards .card:after{
+    position: absolute;
+    content: ;
+    height: 40%;
+    width: 8%;
+    top: 30%;
+    right: -4%;
+    background-color: #fff;
+    z-index: -1;
+    border-radius: 28px;
+    transition: 6s;
+}
+
+.cards .card:hover{
+    color: black;
+}
+
+.cards .card:hover:after{
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+}
+
+
+.cards .card h3{
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    margin-bottom: 16px;
+}
+
+.cards .card ul li i{
+    margin-left: 12px ;
+}
+
+.cards .card ul li i{
+  margin-right: 8px;
+}
+
+.circle{
+   height: 750px;
+   width: 750px;
+   border: 150px solid rgb(255, 255, 255,0.1);
+   position: absolute;
+   top: 48%;
+   left: 80%;
+   border-radius: 50%; 
+}
+
+@media(max-width:1200px){
+    .cards{
+        grid-template-columns: repeat(1,1fr);
+        margin: 0 auto;
+     }
+}
+
+
+@media(max-width:1100px){
+    .service .service1 h1{
+        font-size: 3.7rem;}
+    .service .service1{
+      flex-direction: column;
+       align-items: center; 
+    }
+    .service .service1 h1,
+        .service .service1 p{  
+          width: 100%;
+          text-align: center;
+     }
+     .service .service1 h1{
+        font-size: 2.5rem;
+        margin-top: 10px;
+        margin-bottom: 30px;
+     }
+     .circle{
+        display: none;
+     }
+    }
+
+    @media(max-width:900px){
+        body{
+          overflow-x: hidden;  
+        }
+
+        .card{
+            width: 80%;
+        }
+        .service .service1 h1{
+            font-size: 2rem;
+    }
+    }
+
+
+
+
+      /* Cantact page */
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'poppins', sans-serif;
+    }
+
+    .contact{
+        position: relative;
+        min-height: 100vh;
+        padding: 50px 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: url(image/bg9.avif);
+        background-size: cover;
+         
+    }
+
+
+    .contact .content{
+        max-width: 1000px;
+        text-align: center;
+    }
+
+    .contact .content h2{
+        font-size: 36px;
+        font-weight: 700;
+        color:black;
+    }
+
+    .contact .content p{
+        font-weight: 00;
+        color: #fff;
+    }
+     
+    .container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .container .contactinfo{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container .contactinfo .box{
+        position: relative;
+       margin-top: 60px ;
+        display: flex;
+    }
+     
+    .container .contactinfo .box .icon{
+        min-width: 50px;
+        height: 50px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        font-size: 22px;
+    }
+
+    .container .contactinfo .box .text{
+        display: flex;
+        margin-left: 20px;
+        /* margin-right: 50px; */
+        font-size: 16px;
+        color: #fff;
+        flex-direction: column;
+        font-weight: 300;
+    }
+
+    .container .contactinfo .box .text h3{
+        font-weight: 500;
+        color: black;
+        margin-right: 50px;
+    }
+
+    .contactform{
+        width: 100%;
+        padding: 100px ;
+        /* background: #fff; */
+    }
+
+    .contactform h2{
+        font-size: 30px;
+        color: #333;
+        font-weight: 500;
+    }
+
+    .contactform .inputbox{
+        position: relative;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .contactform .inputbox input,
+    .contactform .inputbox textarea
+    {
+       width: 100%;
+       padding: 5px 0;
+       font-size: 16px;
+       margin: 10px 0;
+       border: none;
+       border-bottom:2px solid #333;
+       outline: none; 
+       resize:none;
+    }
+
+    .contactform .inputbox input span{
+        position: absolute;
+        left: 0;
+        padding: 5px 0;
+        font-size: 16px;
+        margin: 10px 0;
+        pointer-events: none;
+        transition: 0.5s;
+        color: #666;
+    }
+
+    .contactform .inputbox input:focus ~ span
+    .contactform .inputbox input:valid ~ span
+    .contactform .inputbox input:focus ~ span
+    .contactform .inputbox input:valid ~ span{
+        /* color: #e91e63; */
+        font-size: 12px;
+        transform: translateY(-20px);
+    }
+
+    .contactform .inputbox input[type="submit"]{
+       width: 100px;
+       background: #00bcd4;
+       color: #fff;
+       border: none;
+       cursor: pointer;
+       padding: 10px;
+       font-size: 18px;
+    }
+
+    @media [max-width: 991px;]{
+        .contact{
+            padding: 50px;
+        }
+        .container{
+            flex-direction: column;
+        }
+        .container .contactinfo{
+            margin-bottom: 40px;
+        }
+        .container .contactinfo,{
+         /* .contactform  */
+            width: 100%;
+        }
+    }
+        
+  
+ 
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
